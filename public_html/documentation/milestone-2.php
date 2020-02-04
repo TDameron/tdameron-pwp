@@ -22,5 +22,5 @@
 	<h2>Desktop Wireframe: </h2>
 <img src="PWP - Milestone 2 - Wireframe.png" alt="WireFrame goes here.">
 
-	<h3>Mobiile Wireframe:</h3>
-<img src="PWP%20mobile%20wireframe.png" alt="Mobile Wirefreame goes here,">
+	<h3>Mobile Wireframe:</h3>
+<img src="PWP - Mobile Wireframe.png" alt="Mobile Wirefreame goes here,">
