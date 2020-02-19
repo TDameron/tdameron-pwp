@@ -13,6 +13,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+
 	<link rel="stylesheet" href="styleSheet/Styles.css">
 
 	<title>PWP Project</title>
@@ -36,11 +37,11 @@
 
 <!----- First Carousel Here ------>
 
-	<div class ="container bg-dark">
+	<div class ="container-flex bg-dark">
 		<div class="row">
 			<div class="col-12">
 				<p class="text-carousel my-5">Images are going to go below here.</p>
-				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<div id="carouselExampleIndicators" class="carousel slide p-5" data-ride="carousel">
 					<ol class="carousel-indicators">
 						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -70,11 +71,11 @@
 	</div>
 </div>
 
-<div class ="container bg-secondary m-5">
+<div class ="container-flex bg-secondary m-5">
 	<div class="row">
 		<div class="col-12">
 			<p class="text-carousel">Images are going to go below here.</p>
-			<div id="carouselExampleIndicators-2" class="carousel slide" data-ride="carousel">
+			<div id="carouselExampleIndicators-2" class="carousel slide p-5" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -104,11 +105,11 @@
 	</div>
 </div>
 
-<div class ="container bg-secondary m-5">
+<div class ="container-flex bg-secondary m-5">
 	<div class="row">
 		<div class="col-12">
 			<p class="text-carousel">Images are going to go below here.</p>
-			<div id="carouselExampleIndicators-3" class="carousel slide" data-ride="carousel">
+			<div id="carouselExampleIndicators-3" class="carousel slide p-5" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -155,25 +156,25 @@ Begin Sample Contact Form
 Create your own contact form.
 Do not copy and paste this one.
 -->
-<form id="rochelles-demo-form" action="../php/" method="post">
+<form id="thomas-demo-form" action="../php/" method="post">
 	<div class="form-group">
-		<label for="contactDemoName">Name <span class="text-danger">*</span></label>
+		<label for="Name">Name <span class="text-danger">*</span></label>
 		<div class="input-group">
 			<div class="input-group-prepend">
 				<span class="input-group-text"></span>
 				<i class="fa fa-user" aria-hidden="true"></i>
 			</div>
-			<input type="text" class="form-control" id="contactDemoName" name="contactDemoName" placeholder="Name">
+			<input type="text" class="form-control" id="Name" name="Name" placeholder="Name">
 		</div>
 	</div>
 	<div class="form-group">
-		<label for="contactDemoEmail">Email <span class="text-danger">*</span></label>
+		<label for="Email">Email <span class="text-danger">*</span></label>
 		<div class="input-group">
 			<div class="input-group-prepend">
 				<span class="input-group-text"></span>
 				<i class="fa fa-envelope" aria-hidden="true"></i>
 			</div>
-			<input type="email" class="form-control" id="contactDemoEmail" name="contactDemoEmail" placeholder="Email">
+			<input type="email" class="form-control" id="Email" name="Email" placeholder="Email">
 		</div>
 	</div>
 	<div class="form-group">
@@ -198,7 +199,7 @@ Do not copy and paste this one.
 	</div>
 
 	<!-- reCAPTCHA -->
-	<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+	<div class="g-recaptcha" data-sitekey="6LfkcNoUAAAAACiHlJLNbjzTDOPUe9eKLQQURK98"></div>
 
 	<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 	<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
@@ -210,6 +211,17 @@ Do not copy and paste this one.
 		<div id="output-area"></div>
 	</div>
 </div>
+
+<!-- jQuery Form, Additional Methods, Validate -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+<!-- Your JavaScript Form Validator -->
+<script src="js/form-validate.js"></script>
+
+<!-- Google reCAPTCHA -->
+<script src='https://www.google.com/recaptcha/api.js'></script>
 
 </body>
 </html>
