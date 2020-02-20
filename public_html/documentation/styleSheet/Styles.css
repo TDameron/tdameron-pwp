@@ -19,10 +19,17 @@ h1 {
 }
 
 
-.text-carousel {
+.text-carousel-1 {
 	text-align: center;
 	color: whitesmoke;
-	font-size: x-large;
+}
+
+.text-carousel-2 {
+	text-align: center;
+}
+
+.text-carousel-3 {
+	text-align: center;
 }
 
 .container {
