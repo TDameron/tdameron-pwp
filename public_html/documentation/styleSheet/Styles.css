@@ -51,3 +51,34 @@ h1 {
 .carousel-control-next-icon {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
+
+.carousel-inner > .item > img {
+	margin: 0 auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+	filter: invert(100%);
+	background-color: dimgray;
+	max-height: 100px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.carousel-control-next-also,
+.carousel-control-prev-also {
+	filter: invert(100%);
+	background-color: dimgray;
+	max-height: 100px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.carousel-control-next-3,
+.carousel-control-prev-3 {
+	filter: invert(100%);
+	background-color: dimgray;
+	max-height: 100px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
